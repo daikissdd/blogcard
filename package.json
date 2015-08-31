@@ -1,0 +1,81 @@
+{
+  "name": "blogcard",
+  "description": "scraping blogcard web info & fbpage info",
+  "main": "lib/index.js",
+  "author": {
+    "name": "daikiki"
+  },
+  "version": "0.0.1",
+  "keywords": [
+    "scraping",
+    "fbpage",
+    "blogcard",
+    "web"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daikissdd/blogcard"
+  },
+  "bugs": {
+    "url": "https://github.com/daikissdd/blogcard/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.2.0"
+  },
+  "jam": {
+    "main": "lib/index.js",
+    "include": [
+      "lib/index.js",
+      "README.md"
+    ],
+    "categories": [
+      "Utilities"
+    ]
+  },
+  "scripts": {
+    "test": "npm run-script lint && nodeunit test/test-async.js",
+    "lint": "jshint lib/*.js test/*.js perf/*.js",
+    "coverage": "nyc npm test && nyc report",
+    "coveralls": "nyc npm test && nyc report --reporter=text-lcov | coveralls"
+  },
+  "spm": {
+    "main": "lib/async.js"
+  },
+  "volo": {
+    "main": "lib/index.js",
+    "ignore": [
+      "**/.*",
+      "node_modules",
+      "bower_components",
+      "test",
+      "tests"
+    ]
+  },
+  "homepage": "https://github.com/daikissdd/blogcard#readme",
+  "_id": "blogcard@0.0.1",
+  "_shasum": "xxx",
+  "_from": "blogcard@*",
+  "_npmVersion": "2.9.1",
+  "_nodeVersion": "0.12.7",
+  "_npmUser": {
+    "name": "daikiki",
+    "email": "daikissdd@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "daikiki",
+      "email": "daikissdd@gmail.com"
+    }
+  ],
+  "directories": {},
+  "readme": "ERROR: No README data found!",
+  "dependencies": {
+    "async": "^1.4.2",
+    "aws-sdk": "^2.1.31",
+    "cheerio-httpcli": "^0.3.2",
+    "fb": "^0.7.0",
+    "lodash": "^3.9.3",
+    "validator": "^3.40.0"
+  }
+}
