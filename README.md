@@ -1,6 +1,2 @@
-simpleUserAction.js
+blogcard.js
 ---
-
-## next functions
-
-- find count by category, label, action
