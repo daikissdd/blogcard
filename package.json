@@ -5,7 +5,7 @@
   "author": {
     "name": "daikiki"
   },
-  "version": "0.0.1",
+  "version": "0.0.3",
   "keywords": [
     "scraping",
     "fbpage",
@@ -75,6 +75,8 @@
     "aws-sdk": "^2.1.31",
     "cheerio-httpcli": "^0.3.2",
     "fb": "^0.7.0",
+    "file-type": "^2.10.2",
+    "image-type": "^2.0.2",
     "lodash": "^3.9.3",
     "validator": "^3.40.0"
   }
