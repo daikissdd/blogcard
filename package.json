@@ -1,11 +1,11 @@
 {
   "name": "blogcard",
-  "description": "scraping blogcard web info & fbpage info",
+  "description": "scraping blogcard web info & fbpage icon",
   "main": "lib/index.js",
   "author": {
-    "name": "daikiki"
+    "name": "daiki shirakawa"
   },
-  "version": "0.0.3",
+  "version": "0.1.0",
   "keywords": [
     "scraping",
     "fbpage",
@@ -64,7 +64,7 @@
   },
   "maintainers": [
     {
-      "name": "daikiki",
+      "name": "daiki_shirakawa",
       "email": "daikissdd@gmail.com"
     }
   ],
