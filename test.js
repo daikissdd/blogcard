@@ -8,7 +8,8 @@ var fb = {accessToken: process.env['FB_APP_TOKEN']};
 //var url = 'http://www.shiobara-cc.com/';
 //var url = 'https://www.youtube.com/watch?v=CiUkCilM17E&list=FLacYD9DQbJ3IYvz6zj0ONww';
 //var url = 'http://4travel.jp/';
-var url = 'http://news.golfdigest.co.jp/';
+//var url = 'http://news.golfdigest.co.jp/';
+var url = 'http://www.service-safari.com/posts/search?q=6832&category_id=90';
 
 blogcard(fb).fetch(url, function(err, res) {
 	if (err) return console.log(err);
